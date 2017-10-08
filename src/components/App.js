@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a className="navbar-brand" href="#">Fixed navbar</a>
+          <a className="navbar-brand" href="#">Vitamin hair</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -15,10 +15,16 @@ class App extends Component {
                 <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
+                <a className="nav-link" href="#">Products</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" href="#">Disabled</a>
+                <a className="nav-link" href="#">Place order</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Stores</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Contact</a>
               </li>
             </ul>
             <form className="form-inline mt-2 mt-md-0">
@@ -29,9 +35,9 @@ class App extends Component {
         </nav>
         <div className="container">
           <div className="jumbotron">
-            <h1>Navbar example</h1>
-            <p className="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
-            <a className="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
+            <h1>Welcome to Vitamin hair's site</h1>
+            <p className="lead">We are here to help you.</p>
+            <a className="btn btn-lg btn-primary" href="#" role="button">Read more &raquo;</a>
           </div>
         </div>
       </div>

@@ -24,6 +24,15 @@ export default {
     filename: '[name].[chunkhash].js'
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      Popper: ['popper.js', 'default'],
+      // In case you imported plugins individually, you must also require them here:
+      Util: "exports-loader?Util!bootstrap/js/dist/util",
+      Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown",
+    }),
     // Hash the files using MD5 so that their names change when the content changes.
     new WebpackMd5Hash(),
 
@@ -154,7 +163,11 @@ export default {
             }
           ]
         })
-      }
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
     ]
   }
 };
