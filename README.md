@@ -1,3 +1,5 @@
+[![Build status: Linux](https://api.travis-ci.org/quangnd/vitamin-hair-frontend.svg)](https://travis-ci.org/quangnd/vitamin-hair-frontend)
+
 # Get Started
 
 1. **Clone the project**. `git clone https://github.com/quangnd/vitamin-hair-frontend.git`.
