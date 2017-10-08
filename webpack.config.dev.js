@@ -128,9 +128,14 @@ export default {
               includePaths: [path.resolve(__dirname, 'src', 'scss')],
               sourceMap: true
             }
-          }
+          },
+
         ]
-      }
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
     ]
   }
 };
