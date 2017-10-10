@@ -19,8 +19,8 @@ class Header extends Component {
                 Products
                 </a>
               <div className="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-                <Link className="dropdown-item" to="/product1">Product 1</Link>
-                <Link className="dropdown-item" to="/product2">Product 2</Link>
+                <Link className="dropdown-item" to="/product/1">Product 1</Link>
+                <Link className="dropdown-item" to="/product/2">Product 2</Link>
                 {/* <a className="dropdown-item" href="#">Product 1</a>
                 <a className="dropdown-item" href="#">Product 2</a>
                 <a className="dropdown-item" href="#">Product 3</a> */}
