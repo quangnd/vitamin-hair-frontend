@@ -44,7 +44,7 @@ class Header extends Component {
             <li className="nav-item">
               <a className="nav-link" href="#">Sign in</a>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a className="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 v1.0
                 </a>
@@ -54,7 +54,7 @@ class Header extends Component {
                 <a className="dropdown-item" href="https://getbootstrap.com/docs/3.3/">v0.0.2</a>
                 <a className="dropdown-item" href="https://getbootstrap.com/2.3.2/">v0.0.1</a>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
