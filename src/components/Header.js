@@ -36,7 +36,7 @@ class Header extends Component {
               <a className="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" to="/login">Login</Link>
             </li>
