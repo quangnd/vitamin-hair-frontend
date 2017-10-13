@@ -6,6 +6,7 @@ import Home from './Home';
 import Product from './Product';
 import Login from './Account/Login';
 import Signup from './Account/Signup';
+import PlaceOrder from './PlaceOrder';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/products" component={Product} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
+            <Route path="/order" component={PlaceOrder} />
           </Switch>
         </main>
         <Footer />
